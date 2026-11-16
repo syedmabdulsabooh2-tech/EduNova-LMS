@@ -1,0 +1,26 @@
+{
+  "name": "edunova-lms",
+  "version": "2.0.0",
+  "description": "Premium SaaS Learning Management System (LMS) for schools, academies, teachers, and students.",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve . -p 3000",
+    "dev": "serve . -p 3000",
+    "open": "powershell -ExecutionPolicy Bypass -File serve.ps1"
+  },
+  "keywords": [
+    "lms",
+    "learning-management-system",
+    "education",
+    "edtech",
+    "school-management",
+    "online-courses",
+    "quizzes",
+    "assignments"
+  ],
+  "author": "EduNova Team",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
